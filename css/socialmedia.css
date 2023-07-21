@@ -1,0 +1,40 @@
+
+.parent {
+    display: flex; 
+    align-items: flex-end;
+  
+  
+}
+
+.child {
+    color: white;
+    height: 30px;
+    line-height: 30px; 
+    text-align: center;
+    flex: 1; 
+
+}
+
+svg{
+    width: 35px;
+    height:35px;
+
+    margin: auto;
+
+}
+.right-allign{
+    margin-right: 0;
+    margin-left:auto;
+    display:block;
+}
+a {
+    text-decoration: none;
+    color:aliceblue
+}
+/* navvbar current oage sleected / */
+.navbar li:nth-child(4) a {
+    background-color: rgb(166, 30, 184);
+    color: rgb(255, 255, 255); 
+}
+
+

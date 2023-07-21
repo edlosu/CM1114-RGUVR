@@ -1,0 +1,13 @@
+.navbar li:nth-child(5) a {
+    background-color: rgb(166, 30, 184);
+    color: rgb(255, 255, 255);
+}
+
+form {
+  background-color: rgb(157, 161, 165, 0.5);
+
+}
+
+#info{
+    font-size: 400%;
+}

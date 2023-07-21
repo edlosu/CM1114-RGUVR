@@ -1,0 +1,69 @@
+h1{
+    text-align: left;
+}
+
+
+
+
+.foreground-image{
+    background-image: url('../images/background4.jpg');
+   
+
+}
+
+.cropped-image {
+    position: relative;
+    width: 100%;
+    height: 200px; 
+    overflow: hidden;
+    margin-bottom: 20px; 
+    cursor: pointer;
+
+}
+
+.cropped-image img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+/* Hidden Overlay  */
+.image-overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5); 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s ease; 
+    opacity: 0; 
+}
+
+
+.cropped-image:hover .image-overlay {
+    opacity: 1;
+}
+
+.cropped-image:hover img {
+    transform: scale(1.1); 
+}
+
+.cropped-image .details{
+    position: absolute;
+    color: #fff;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    transition: opacity 0.3s ease;
+}
+.cropped-image:hover .details{
+    opacity:1;
+}
+/* navabr highlight */
+.navbar li:nth-child(2) a {
+    background-color: rgb(166, 30, 184);
+    color: rgb(255, 255, 255); 
+}
